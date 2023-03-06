@@ -7,10 +7,10 @@ export default defineComponent({
             drawer: false,
             group: null,
             items: [
-                {
-                    title: 'Home',
-                    path: '/'
-                },
+                // {
+                //     title: 'Home',
+                //     path: '/'
+                // },
                 {
                     title: 'Dashboard',
                     path: '/dashboard'

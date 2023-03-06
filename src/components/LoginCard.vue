@@ -30,7 +30,7 @@ export default defineComponent({
                     :type="show1 ? 'text' : 'password'"
                     @click:append="show1 = !show1"
                     ></v-text-field>
-                    <v-btn type="submit" to="/" block class="mt-2">Submit</v-btn>
+                    <v-btn type="submit" to="/dashboard" block class="mt-2">Submit</v-btn>
                 </v-form>
             </v-col>
         </v-layout>

@@ -1,8 +1,17 @@
 <script setup lang="ts">
+import AlertCard from '../components/AlertCard.vue';
+import ChoreCard from '../components/ChoreCard.vue';
+import EventCard from '../components/EventCard.vue';
+import UserList from '../components/UserList.vue';
+
 </script>
 
 <template>
-  <div>
+    <AlertCard/>
+    <ChoreCard/>
+    <EventCard/>
+    <UserList/>
+  <!-- <div>
     <h1>This is where you go to view CHORES, ALERTS, and EVENT REMINDERS</h1>
     <ul>
         <ul>
@@ -42,5 +51,5 @@
             <li>going - who is going, headcount, can include guests</li>
         </ul>
     </ul>
-  </div>
+  </div> -->
 </template>
