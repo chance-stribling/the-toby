@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import LoginCard from '../components/LoginCard.vue';
 // import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <div>
-    <h1>Hello there again</h1>
+    <LoginCard/>
   </div>
 </template>
