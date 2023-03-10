@@ -37,6 +37,7 @@ export default defineComponent({
                     height="200"
                     hide-delimiters
                     show-arrows="hover"
+                    class="mb-5"
                 >
                     <v-carousel-item
                     v-for="(item, i) in items"
@@ -48,7 +49,7 @@ export default defineComponent({
                         class="d-flex justify-center align-center text-white"
                     >
 
-                        <div class="flex-column mt-5">
+                        <div class="flex-column my-5">
                             <div class="text-h4">
                                 {{ item.title }}
                             </div>

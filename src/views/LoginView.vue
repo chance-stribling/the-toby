@@ -4,7 +4,11 @@ import LoginCard from '../components/LoginCard.vue';
 </script>
 
 <template>
-  <div>
+  <div class="login-card">
     <LoginCard/>
   </div>
 </template>
+
+<style scoped>
+
+</style>

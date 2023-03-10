@@ -13,12 +13,12 @@ export default defineComponent({
 </script>
 
 <template>
-    <v-card width="500px" class="mx-auto mt-15">
+    <v-card theme="dark" width="500px" class="mx-auto">
         <v-layout>
             <v-col>
 
                 <v-card-title>Login</v-card-title>
-                <v-form @submit.prevent>
+                <v-form >
                     <v-text-field
                     v-model="username"
                     label="Username"
@@ -30,7 +30,7 @@ export default defineComponent({
                     :type="show1 ? 'text' : 'password'"
                     @click:append="show1 = !show1"
                     ></v-text-field>
-                    <v-btn type="submit" to="/dashboard" block class="mt-2">Submit</v-btn>
+                    <v-btn to="/dashboard" block class="mt-2">Submit</v-btn>
                 </v-form>
             </v-col>
         </v-layout>
